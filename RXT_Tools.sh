@@ -4,14 +4,14 @@ echo -e '\033[31;40;1m
 		   ────█▌▀▄──▄▄──▄▀▐█────
 		   ───▐██──▀▀──▀▀──██▌───
 		   ──▄████▄──▐▌──▄████▄──
-      \e[35m      ☠         Code  : Nixz001     ☠
+      \e[35m      ☠Code  : Nixz001☠
 
 	\e[36m 	 --=RXT_Team=--
 
 
-\e[32m[1]\e[33Hammer DDOS          \e[32m[2]\e[33ZPhisher
+\e[32m[1]\e[33Hammer DDOS☠          \e[32m[2]\e[33ZPhisher☠
 
-\e[32m[3]\e[33IP-Tracer
+\e[32m[3]\e[33IP-Tracer☠
 
 
 
@@ -38,11 +38,11 @@ pkg install perl -y
 apt update
 apt upgrade -y
 clear
-echo -e '\033[31;40;1m              Job is done'
+echo -e '\033[31;40;1m              Job is done...'
 sleep 2
-bash start.sh
+bash RXT_Tools.sh
 
-
+#menu 1
 elif [[ $Select == 1 || $Select == 01 ]]; then
         clear
         cd $HOME
@@ -55,7 +55,7 @@ elif [[ $Select == 1 || $Select == 01 ]]; then
         echo -e '\033[31;40;1mFinish...'
 	cd $HOME/RXT_Team
         bash RXT_Tools.sh
-
+#menu 2
 elif [[ $Select == 2 || $Select == 02 ]]; then
         clear
         cd $HOME
@@ -68,7 +68,7 @@ elif [[ $Select == 2 || $Select == 02 ]]; then
         echo -e '\033[31;40;1mFinish...'
 	cd $HOME/RXT_Team
         bash RXT_Tools.sh
-
+#menu 3
 elif [[ $Select == 3 || $Select == 03 ]]; then
         clear
         cd $HOME
