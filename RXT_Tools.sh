@@ -9,7 +9,14 @@ echo -e '\033[31;40;1m
 	\e[36m 	 --=RXT_Team=--
 
 
-\e[32m[2]\e[33Hammer DDOS
+\e[32m[1]\e[33Hammer DDOS          \e[32m[2]\e[33ZPhisher
+
+\e[32m[3]\e[33IP-Tracer
+
+
+
+
+
 
 read -p "Select Number: " Select
 if [[ $Select == 1 || $Select == 01 ]]; then
@@ -36,7 +43,7 @@ sleep 2
 bash start.sh
 
 
-elif [[ $Select == 2 || $Select == 02 ]]; then
+elif [[ $Select == 1 || $Select == 01 ]]; then
         clear
         cd $HOME
         git clone https://github.com/cyweb/hammer.git
@@ -45,13 +52,40 @@ elif [[ $Select == 2 || $Select == 02 ]]; then
         chmod +x hammer.py
         clang  python2 hammer.py
         sleep 2
-        echo -e '\033[31;40;1mFinish'
+        echo -e '\033[31;40;1mFinish...'
 	cd $HOME/RXT_Team
-        bash start.sh
+        bash RXT_Tools.sh
+
+elif [[ $Select == 2 || $Select == 02 ]]; then
+        clear
+        cd $HOME
+        $ git clone git://github.com/htr-tech/zphisher.git
+        sleep 5
+        cd $HOME/zphisher/
+        chmod +x zphisher.sh
+        clang  bash zphisher.sh
+        sleep 2
+        echo -e '\033[31;40;1mFinish...'
+	cd $HOME/RXT_Team
+        bash RXT_Tools.sh
+
+elif [[ $Select == 3 || $Select == 03 ]]; then
+        clear
+        cd $HOME
+        $ git clone https://github.com/rajkumardusad/IP-Tracer.git
+        sleep 5
+        cd $HOME/IP-Tracer/
+        chmod +x install
+        clang  bash install
+        clang  bash trace
+        sleep 2
+        echo -e '\033[31;40;1mFinish...'
+	cd $HOME/RXT_Team
+        bash RXT_Tools.sh
 
 else   
 	clear
-        echo -e '\033[36;40;1m Invalid Number Select Valid Number'	
+        echo -e '\033[36;40;1m Invalid Number Select Valid Number...'	
 	sleep 1
 	clear 
 	bash RXT_Tools.sh
