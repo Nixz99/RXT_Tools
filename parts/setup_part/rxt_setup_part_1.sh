@@ -32,7 +32,7 @@ echo -e '\033[31;40;1m
 \e[32m[info-- Leaked? is A Checking tool for Hash codes, Passwords, and Emails leaked]
 \e[32m[9]\e[33m Setup Zarp				
 \e[32m[info-- Zarp is a network attack tool centered around the exploitation of local networks]
-			\e[32m[s]\e[33mSetup
+			\e[32m[r]\e[33mRun
 			\e[32m[n]\e[33mNext page
 			\e[32m[p]\e[33mPrevious page
 			\e[32m[x]\e[33mExit'
@@ -187,7 +187,7 @@ elif [[ $Number == x|| $Number == 0x ]]; then
 elif [[ $Number == r|| $Number == 0r ]]; then
 	echo -e "\e[31m Opening Run"
 	sleep 2
-	cd $HOME/RXT_Tools/parts
+	cd $HOME/RXT_Tools/parts/
 	bash RXT_Run_Fix.sh
 	exit
 
