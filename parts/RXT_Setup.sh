@@ -183,6 +183,13 @@ elif [[ $Number == x|| $Number == 0x ]]; then
 	printf "${BLUE}"
 	exit
 	
+elif [[ $Number == n|| $Number == 0n ]]; then
+	echo -e "\e[31m Opening Next Page"
+	sleep 2
+	cd $HOME/RXT_Tools/parts/setup_part/
+	bash rxt_setup_part_1.sh
+	exit
+	
 elif [[ $Number == r|| $Number == 0r ]]; then
 	echo -e "\e[31m Opening Run"
 	sleep 2
