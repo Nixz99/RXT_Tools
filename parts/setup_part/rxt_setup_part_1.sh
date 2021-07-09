@@ -176,7 +176,7 @@ elif [[ $Number == n|| $Number == 0n ]]; then
 elif [[ $Number == p|| $Number == 0p ]]; then
 	echo -e "\e[31m Opening Previous Page"
 	sleep 2
-	cd $HOME/RXT_Tools/parts/run_part/
+	cd $HOME/RXT_Tools/parts/
 	bash RXT_Setup.sh
 	
 elif [[ $Number == x|| $Number == 0x ]]; then
