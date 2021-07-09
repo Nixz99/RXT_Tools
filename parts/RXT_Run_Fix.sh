@@ -71,7 +71,7 @@ elif [[ $Number == 2 || $Number == 02 ]]; then
         echo -e '\e[1mRunning IP-Tracer'
         sleep 2
         bash trace start
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Run_Fix.sh
 
 
@@ -160,7 +160,7 @@ elif [[ $Number == x|| $Number == 0x ]]; then
 elif [[ $Number == s|| $Number == 0s ]]; then
 	echo -e "\e[31m Opening Setup"
 	sleep 2
-	cd $HOME/RXT_Tools
+	cd $HOME/RXT_Tools/parts
 	bash RXT_Setup.sh
 	exit
 
