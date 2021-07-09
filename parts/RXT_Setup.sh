@@ -76,7 +76,7 @@ elif [[ $Number == 2 || $Number == 02 ]]; then
         bash install
         echo -e '\e[1mJob is done...'
         sleep 2
-	cd $HOME/RXT_Tools
+	cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
 
         
@@ -90,7 +90,7 @@ elif [[ $Number == 3 || $Number == 03 ]]; then
         python3 setup.py -c
         echo -e '\e[1mJob is done...'
         sleep 2
-	cd $HOME/RXT_Tools
+	cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
 
         
@@ -101,7 +101,7 @@ elif [[ $Number == 4 || $Number == 04 ]]; then
 	wget https://raw.githubusercontent.com/ExpertAnonymous/PhoneInfoga/master/phoneinfoga.sh -q
 	echo -e '\e[1mJob is done...'
 	sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
         
 elif [[ $Number == 5|| $Number == 05 ]]; then
@@ -110,7 +110,7 @@ elif [[ $Number == 5|| $Number == 05 ]]; then
 	git clone git://github.com/htr-tech/zphisher.git
         echo -e '\e[1mJob is done...'
         sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
         
 elif [[ $Number == 6|| $Number == 06 ]]; then
@@ -122,7 +122,7 @@ elif [[ $Number == 6|| $Number == 06 ]]; then
         bash install-sb.sh
         echo -e '\e[1mJob is done...'
         sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
         
 elif [[ $Number == 7|| $Number == 07 ]]; then
@@ -131,7 +131,7 @@ elif [[ $Number == 7|| $Number == 07 ]]; then
 	git clone https://github.com/ByDog3r/FAQUE
         echo -e '\e[1mJob is done...'
         sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
 
 elif [[ $Number == 8|| $Number == 08 ]]; then
@@ -143,7 +143,7 @@ elif [[ $Number == 8|| $Number == 08 ]]; then
 	pip3 install requests
         echo -e '\e[1mJob is done...'
         sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
 
 elif [[ $Number == 9|| $Number == 09 ]]; then
@@ -153,7 +153,7 @@ elif [[ $Number == 9|| $Number == 09 ]]; then
         cargo install findomain
         echo -e '\e[1mJob is done...'
         sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
 
 elif [[ $Number == 10|| $Number == 010 ]]; then
@@ -164,7 +164,7 @@ elif [[ $Number == 10|| $Number == 010 ]]; then
         pip install -r requeriments.txt
         echo -e '\e[1mJob is done...'
         sleep 2
-        cd $HOME/RXT_Tools
+        cd $HOME/RXT_Tools/parts
         bash RXT_Setup.sh
 
 
@@ -193,7 +193,7 @@ elif [[ $Number == n|| $Number == 0n ]]; then
 elif [[ $Number == r|| $Number == 0r ]]; then
 	echo -e "\e[31m Opening Run"
 	sleep 2
-	cd $HOME/RXT_Tools
+	cd $HOME/RXT_Tools/parts
 	bash RXT_Run_Fix.sh
 	exit
 else   
