@@ -12,13 +12,13 @@ echo -e '\033[31;40;1m
 
       \e[35m		☠Code:Nixz99☠	
 
+
 \e[32m[1]\e[33mUpdate-Termux
 \e[32m[2]\e[33mIP-Tracer
 \e[32m[3]\e[33mTeleGram-Scraper
 \e[32m[4]\e[33mPhoneInfoga
 \e[32m[5]\e[33mZphisher
 \e[32m[6]\e[33mSocialBox'
-
 
 
 
@@ -46,12 +46,14 @@ echo -e 'Job is done'
 sleep 2
 bash RXT_Run.sh
 
+
 elif [[ $Number == 2 || $Number == 02 ]]; then
         clear
         cd $HOME/IP-Tracer/
         sleep 5
 	chmod +x trace
 	bash trace
+
 
 elif [[ $Number == 3 || $Number == 03 ]]; then
         clear
@@ -60,12 +62,14 @@ elif [[ $Number == 3 || $Number == 03 ]]; then
 	chmod +x scraper.py
 	python3 scraper.py
 
+
 elif [[ $Number == 4 || $Number == 04 ]]; then
         clear
         cd $HOME/
         sleep 5
 	chmod +x phoneinfoga.sh
 	bash phoneinfoga.sh
+
 	
 elif [[ $Number == 5 || $Number == 05 ]]; then
         clear
@@ -73,6 +77,7 @@ elif [[ $Number == 5 || $Number == 05 ]]; then
         sleep 5
 	chmod +x zphisher.sh
 	bash zphisher.sh
+
 	
 elif [[ $Number == 6 || $Number == 06 ]]; then
         clear
@@ -80,6 +85,7 @@ elif [[ $Number == 6 || $Number == 06 ]]; then
         sleep 5
 	chmod +x SocialBox.sh
 	bash SocialBox.sh
+
 
 else   
 	clear
