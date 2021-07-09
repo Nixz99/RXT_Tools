@@ -1,20 +1,23 @@
 #!/bin/bash
 #Code:Nixz99
+figlet Run
 echo -e '\033[31;40;1m 
+		      ────█▀▀▀▀▀▀█────
+		     ────█        █────
 		   ─────█─▄▀█──█▀▄─█─────
 		   ────▐▌──────────▐▌────
 		   ────█▌▀▄──▄▄──▄▀▐█────
 		   ───▐██──▀▀──▀▀──██▌───
 		   ──▄████▄──▐▌──▄████▄──
-		figlet Nixz99
 
-      \e[35m      ☠         Code  : Nixz99     ☠	
+      \e[35m		☠Code:Nixz99☠	
 
 \e[32m[1]\e[33mUpdate-Termux
 \e[32m[2]\e[33mIP-Tracer
 \e[32m[3]\e[33mTeleGram-Scraper
 \e[32m[4]\e[33mPhoneInfoga
-
+\e[32m[5]\e[33mZphisher
+\e[32m[6]\e[33mSocialBox'
 
 
 
@@ -63,6 +66,20 @@ elif [[ $Number == 4 || $Number == 04 ]]; then
         sleep 5
 	chmod +x phoneinfoga.sh
 	bash phoneinfoga.sh
+	
+elif [[ $Number == 5 || $Number == 05 ]]; then
+        clear
+        cd $HOME/zphisher
+        sleep 5
+	chmod +x zphisher.sh
+	bash zphisher.sh
+	
+elif [[ $Number == 6 || $Number == 06 ]]; then
+        clear
+        cd $HOME/SocialBox-Termux
+        sleep 5
+	chmod +x SocialBox.sh
+	bash SocialBox.sh
 
 else   
 	clear
