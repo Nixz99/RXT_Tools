@@ -187,7 +187,7 @@ elif [[ $Number == x|| $Number == 0x ]]; then
 elif [[ $Number == r|| $Number == 0r ]]; then
 	echo -e "\e[31m Opening Run"
 	sleep 2
-	cd $HOME/RXT_Tools
+	cd $HOME/RXT_Tools/parts
 	bash RXT_Run_Fix.sh
 	exit
 
