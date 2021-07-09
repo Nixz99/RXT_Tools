@@ -1,6 +1,6 @@
 #!/bin/bash
 #Code:Nixz99
-figlet Run
+figlet Setup
 echo -e '\033[31;40;1m 
 		      ────█▀▀▀▀▀▀█────
 		     ────█        █────
