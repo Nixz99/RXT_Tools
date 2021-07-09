@@ -39,7 +39,7 @@ pkg install perl -y
 apt update
 apt upgrade -y
 clear
-echo -e '\033[31;40;1m              Job is done'
+echo -e 'Job is done'
 sleep 2
 bash RXT_Run.sh
 
@@ -66,7 +66,7 @@ elif [[ $Number == 4 || $Number == 04 ]]; then
 
 else   
 	clear
-        echo -e '\033[36;40;1m Select Valid Number....'	
+        echo -e 'Select Valid Number....'	
 	sleep 1
 	clear 
 	bash RXT_Run.sh

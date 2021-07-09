@@ -39,7 +39,7 @@ pkg install perl -y
 apt update
 apt upgrade -y
 clear
-echo -e '\033[31;40;1m              Job is done'
+echo -e 'Job is done'
 sleep 2
 bash RXT_Setup.sh
 
@@ -52,7 +52,7 @@ elif [[ $Number == 2 || $Number == 02 ]]; then
         chmod +x install
         bash install
         sleep 2
-        echo -e '\033[31;40;1mJob is done...'
+        echo -e 'Job is done...'
 	cd $HOME/RXT_Tools
         bash RXT_Setup.sh
 
@@ -65,7 +65,7 @@ elif [[ $Number == 3 || $Number == 03 ]]; then
         python3 setup.py -i
         python3 setup.py -c
         sleep 2
-        echo -e '\033[31;40;1mJob is done...'
+        echo -e 'Job is done...'
 	cd $HOME/RXT_Tools
         bash RXT_Setup.sh
 
@@ -76,13 +76,13 @@ elif [[ $Number == 4 || $Number == 04 ]]; then
         sleep 5
         cd $HOME/
         sleep 2
-        echo -e '\033[31;40;1mJob is done...'
+        echo -e 'Job is done...'
 	cd $HOME/RXT_Tools
         bash RXT_Setup.sh
 
 else   
 	clear
-        echo -e '\033[36;40;1m Select Valid Number....'	
+        echo -e 'Select Valid Number....'	
 	sleep 1
 	clear 
 	bash RXT_Setup.sh
